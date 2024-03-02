@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+article {
+    perspective: 600px;
+}
+
+figure {
+    transform: scale(0.3, 0.3) rotate(-40deg) translate(-500px, -80px) rotateZ(40deg) rotateY(40deg);
+}
+
+article > figure > a > img {
+    float: left;
+    width: 130px;
+    margin-top: 50px;
+    display: block;
+    border-image: url(../images/border.jpg) 10 repeat;
+    border-style: solid;
+    border-width: 5px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    box-shadow: rgba(73, 35, 101, 0.7) -10px -10px 10px;
+}
+
+article > figure > img {
+    float: left;
+    width: 130px;
+    margin-top: 50px;
+    display: block;
+    border-image: url(../images/border.jpg) 10 repeat;
+    border-style: solid;
+    border-width: 5px;
+    filter: sepia(0.5);
+    -webkit-filter: sepia(0.5);
+    box-shadow: rgba(73, 35, 101, 0.7) -10px -10px 10px;
+    transform: translate(0px, -40px);
+}
+
+body > article > h2 > a:link, body > article > h2 > a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+ }
+ 
+ body > article > h2 > a:hover, body > article > h2 > a:active {
+    color: rgb(255, 255, 255);
+ }
+
+
+article.threethree > figure > img {
+    float: left;
+    width: 130px;
+    margin-top: 50px;
+    display: block;
+    border-image: url(../images/border.jpg) 10 repeat;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: rgba(73, 35, 101, 0.7) -10px -10px 10px;
+    transform: translate(0px, -40px);
+}
+
+article.onefive, article.twofive, article.threethree, article.threesix {
+    margin-left: 0px;
+}
+
+article.fivefive, article.sixfive, article.sixseven, article.sevenone {
+    margin-left: 0px;
+}
+
+body {
+    background: radial-gradient(blueviolet, rgb(73, 35, 101));
+}
+
+article h2 {
+    margin-left: 20%;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+dl.activity > dd  {
+    margin-left: 23%;
+    margin-right: 5%;
+}

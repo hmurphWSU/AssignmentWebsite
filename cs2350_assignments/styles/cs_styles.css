@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/quicksand_regular.woff') format('woff'),
+          url('../fonts/quicksand_regular.ttf') format('truetype');
+ }
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+}
+
+body > header > img {
+	width: 75%;
+}
+
+body > nav {
+	width: 20%;
+	float: left;
+}
+
+body > article {
+	width: 100%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+body > footer {
+	clear: left;
+	width: 100%;
+}
+
+html {
+    background: url(../images/background.jpg) top left 100% / cover no-repeat; 
+    font-family: Quicksand, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: radial-gradient(blueviolet, rgb(73, 35, 101));
+}
+
+header {
+    background: url(../images/wsu.png) right center / 23% no-repeat,
+    url(../images/computerscience.jpeg) 100% / cover no-repeat;
+}
+
+body > img {
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+nav > ul {
+    list-style-type: none;
+    line-height: 3em;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+body > h2 {
+    margin-left: 20%;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+body > a:link > img, body > a:visited img {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+body > a:hover > img, body > a:active img {
+    color: rgb(255, 255, 255);
+}
+
+dl > dd {
+    margin-left: 23%;
+    margin-right: 2%;
+}
+
+dl.assignments > dd {
+    margin-left: 23%;
+    margin-right: 2%;
+}
+
+dl > dd > a:link, dl > dd > a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+dl > dd > a:hover, dl > dd > a:active {
+    color: rgb(255, 255, 255);
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+ }
+ 
+ nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(255, 255, 255);
+ }
+
+ body > h2 > a:link, body > h2 > a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+ }
+ 
+ body > h2 > a:hover, body > h2 > a:active {
+    color: rgb(255, 255, 255);
+ }
+
+ body > footer address {
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(0deg, blueviolet 20%, rgb(73, 35, 101) 100%);
+ }
